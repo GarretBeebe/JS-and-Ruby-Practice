@@ -1,0 +1,9 @@
+## Filetypes && files
+**/.DS_Store
+.DS_Store
+
+## Folders
+
+## Node files
+node_modules
+npm-debug.log
