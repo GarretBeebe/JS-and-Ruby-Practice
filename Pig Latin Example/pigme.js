@@ -9,9 +9,9 @@ return str.replace(/\b(\w)(\S+)\b/g, '$2$1ay');
 }
 
 function capitalize(str) {
-  if (!(str === str.toLowerCase())) {
-    str = str.toLowerCase()
-    str = str.replace(/\b\w/, function(letter) {return letter.toUpperCase();})
+  if ((str !== str.toLowerCase())) {
+    str = str.toLowerCase();
+    str = str.replace(/\b\w/, function(letter) {return letter.toUpperCase();});
   }
   return str;
 }

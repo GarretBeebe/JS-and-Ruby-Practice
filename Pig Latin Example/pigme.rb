@@ -1,20 +1,18 @@
-finalArray = [];
-phrase = '';
-wordArray = [];
-
-def toPigLatin(str)
-  str.gsub(/\b(\w)(\S+)\b/, '\2\1ay')
+def to_piglatin(string)
+  string.gsub(/\b(\w)(\S+)\b/, '\2\1ay')
 end
 
 def capitalize(str)
-  return str unless !(str === str.downcase)
-  str.downcase.capitalize
+  lowercase_string = string.downcase
+  return string if string === lowercase_string
+  lowercase_string.capitalize
 end
 
 phrase = ARGV[0];
-puts "English Phrase: #{phrase}";
-wordArray = toPigLatin(String(phrase)).split(' ');
-wordArray.each do |str|
-  finalArray.push(capitalize(str));
+puts "English Phrase: #{phrase}"
+word_array = to_piglatin(String(phrase)).split(' ')
+final_array = []
+word_array.each do |string|
+  final_array.push(capitalize(string))
 end
-puts "Pig Latin: #{finalArray.join(' ')}";
+puts "Pig Latin: #{finalArray.join(' ')}"
