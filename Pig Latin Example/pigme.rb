@@ -2,7 +2,7 @@ def to_piglatin(string)
   string.gsub(/\b(\w)(\S+)\b/, '\2\1ay')
 end
 
-def capitalize(str)
+def capitalize(string)
   lowercase_string = string.downcase
   return string if string === lowercase_string
   lowercase_string.capitalize
@@ -15,4 +15,4 @@ final_array = []
 word_array.each do |string|
   final_array.push(capitalize(string))
 end
-puts "Pig Latin: #{finalArray.join(' ')}"
+puts "Pig Latin: #{final_array.join(' ')}"
