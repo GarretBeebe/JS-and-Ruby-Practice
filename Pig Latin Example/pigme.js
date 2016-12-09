@@ -5,7 +5,7 @@ var phrase = '';
 var wordArray = [];
 
 function toPigLatin(str) {
-return str.replace(/\b(\w)(\S+)\b/g, '$2$1ay');
+  return str.replace(/\b(\w)(\S+)\b/g, '$2$1ay');
 }
 
 function capitalize(str) {
