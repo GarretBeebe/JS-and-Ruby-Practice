@@ -1,0 +1,5 @@
+What is the difference between a+=b and a << b?
+	The shovel operator << performs much better than += when dealing with long strings because the shovel operator is allowed to modify the original string, whereas += has to copy all the text from the first string into a new string every time it runs
+What is the difference between string and symbol?
+	Symbols are strings. They are just immutable.
+What is the assets pipeline and how well does it perform?
