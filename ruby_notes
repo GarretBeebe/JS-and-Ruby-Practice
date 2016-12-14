@@ -3,3 +3,4 @@ What is the difference between a+=b and a << b?
 What is the difference between string and symbol?
 	Symbols are strings. They are just immutable.
 What is the assets pipeline and how well does it perform?
+How does multiple inheritance work in ruby?
