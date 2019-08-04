@@ -1,0 +1,25 @@
+Possible Gusto problems
+
+1. Write a program to convert numbers into words.
+Ex/ 1001 = One thousand and one  
+
+2.Given two hashmap type data structures (expected, actual) compare the two maps and return the differences in the maps. Map values can be another map or it can be an integer value.
+
+A map can look like the following:
+Apple - 3
+Orange
+    Banana - 4
+    Strawberry - 7
+
+Key Apple maps to 3
+Key orange maps to another map containing banana mapped to 4 and strawberry mapped to 7  
+
+3. Print tree leaf nodes in a given order  
+
+4.When given a string input and an array of substrings, find all those substrings in the string input and add bold html tags around them  
+
+5. Compare a hash table by key and by value, including recursively flattening nested hash tables. This was done in a coder pad.
+
+6. Given the radius / x and y coordinates of the middle of a list of circles hand the height of the y axis, determine if a grid is traversibe on the x axis by a 1 x 1 square
+
+7. Given an unsigned value, implement the two's complement value. 
