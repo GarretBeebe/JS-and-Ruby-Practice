@@ -22,7 +22,7 @@ function createHistogram(lifeSpans) {
 
 function findMaxYears(histogram){
   let maxYears = [];
-  let finalMax = 0
+  let finalMax = 0;
 
   for (key in histogram) {
     if (histogram[key] >= finalMax) {
