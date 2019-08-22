@@ -27,7 +27,14 @@ head.next.next = new LinkedListNode(3);
 // add a fourth node
 head.next.next.next = new LinkedListNode(4);
 
+console.log("Original Linked List:");
+console.log("");
 console.log(head);
+console.log("");
+console.log("Original Last Node:");
+console.log("");
+console.log(head.next.next.next);
+console.log("");
 
 function reverse(head) {
   if (!head || !head.next) {
@@ -40,6 +47,13 @@ function reverse(head) {
 }
 
 let test = reverse(head);
+
+console.log("Reversed Linked List:");
+console.log("");
 console.log(test);
+console.log("");
+console.log("New Last Node:");
+console.log("");
+console.log(test.next.next.next);
 
 
